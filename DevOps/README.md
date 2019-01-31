@@ -9,4 +9,4 @@ Tailwind Traders team, like most DevOps teams practices continuous planning. The
 
 **Demo Generator:** [https://azuredevopsdemogenerator-staging.azurewebsites.net/?name=twt](https://azuredevopsdemogenerator-staging.azurewebsites.net/?name=twt)
 
-![](GhAzureDevOps.png)
+![](GHAzureDevOps.png)
