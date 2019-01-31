@@ -7,10 +7,8 @@ From App Service to AKS, Logic Apps to Functions, Cosmos DB to Cognitive Service
 
 ![](gameplan.png)
 
-
 **Want more swag:** Repeat steps 1-7 with a different demo
 
--------------------------
 
 ## Choose your adventure
 
