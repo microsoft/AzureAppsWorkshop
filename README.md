@@ -5,15 +5,8 @@ From App Service to AKS, Logic Apps to Functions, Cosmos DB to Cognitive Service
 
 ## Game Plan:
 
-1. Pick your demo from the section below ​
-1. Find your table - we have .​
-1. Introduce yourself to the team.​
-1. Review the business case.​
-1. Start building your demo.​
-1. Complete your demo.​
-1. Help your table complete the demo.​
-1. Raise your hand if you need help.​
-1. Pick your swag.​
+![](gameplan.png)
+
 
 **Want more swag:** Repeat steps 1-7 with a different demo
 
