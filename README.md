@@ -14,7 +14,7 @@ From App Service to AKS, Logic Apps to Functions, Cosmos DB to Cognitive Service
 
 | Demo​                               | Description​                                                                           | Repository​                         |
 |------------------------------------|---------------------------------------------------------------------------------------|------------------------------------|
-| Modernization with App Services​    | Migrating ASP.NET WebForms App to Azure App Service and modernizing with Serverless. ​ | Tailwind Traders (Rewards)​         |
+| [Modernization with App Services](/appservice/)​    | Migrating ASP.NET WebForms App to Azure App Service and modernizing with Serverless. ​ | Tailwind Traders (Rewards)​         |
 | Managing Backend Services with AKS​ | Run multi-language based microservices on Azure Kubernetes Service. ​                  | Tailwind Traders (AKS)​             |
 | [DevOps](./DevOps/)​                             | Setup continuous automated pipelines from GitHub to Azure.​                            | Tailwind Traders (Website)​         |
 | Cloud-Native​                       | Build a serverless intelligent app powered by Azure.​                                  | SmartHotel360 (Sentiment Analysis)​ |
