@@ -24,7 +24,7 @@ Tailwind Traders has an existing ASP.NET Framework app that they need to move to
  
 **Source code:** https://github.com/Microsoft/TailwindTraders-Rewards
 
-**Demo Script:** []()
+**Demo Script:** [Modernization with App Services](https://github.com/Microsoft/TailwindTraders/tree/master/Documents/DemoScripts/Modernizing%20.NET%20Apps#modernizing-net-apps)
 
 ![](Images/appservice.png)
 
@@ -48,7 +48,7 @@ Tailwind Traders team, like most DevOps teams practices continuous planning. The
 
 **Source code:** [https://github.com/Microsoft/TailwindTraders-Website](https://github.com/Microsoft/TailwindTraders-Website)
 
-**Demo Script:** []()
+**Demo Script:** [DevOps](https://github.com/Microsoft/TailwindTraders/tree/master/Documents/DemoScripts/Integrating%20Azure%20Pipelines%2C%20GitHub%20and%20Azure%20Boards#integrating-azure-pipelines-github-and-azure-boards)
 
 ![](Images/GHAzureDevOps.png)
 
@@ -59,7 +59,7 @@ SmartHotel360 has implemented a simple Node.js website to analyze customer senti
 
 **Source code:** [https://github.com/Microsoft/SmartHotel360-SentimentAnalysis](https://github.com/Microsoft/SmartHotel360-SentimentAnalysis)
 
-**Demo script:** []()
+**Demo script:** located on the same repository.
 
 ![](Images/SH360SentimentWeb.png)
 
@@ -72,6 +72,6 @@ This solution empowers both the Occupant and the Hotel employees (from Head of O
 
 **Source code:** [https://github.com/Microsoft/SmartHotel360-IoT](https://github.com/Microsoft/SmartHotel360-IoT)
 
-**Demo script:** []()
+**Demo script:** located on the same repository.
 
 ![](Images/SH360IOT.png)
