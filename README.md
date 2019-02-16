@@ -8,13 +8,6 @@ From App Service to AKS, Logic Apps to Functions, Cosmos DB to Cognitive Service
 ![](Images/gameplan.png)
 
 -------------------------
-### Virtual Machine (Optional)
-
-Some of these demos required to have installed Visual Studio or other components. In case you don't have these requirements installed in your machine we have prepared a Virtual Machine with most of the pre-requisites and it will be available only during this workshop: [Microsoft Internal Virtual Machine](https://aka.ms/wrkba)
-
-> Note: you will need to login with your Microsoft credentials.
-
--------------------------
 ## Choose your adventure
 
 | Demo​                               | Description​                                                                           | Repository​                         |
