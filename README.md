@@ -1,27 +1,26 @@
+# Azure Apps Workshop
 
-# AI-APP-TS325: Utilizing robust Azure demos for real-world common scenarios
+## Create more impact with real-world Azure demos
 
-From App Service to AKS, Logic Apps to Functions, Cosmos DB to Cognitive Services and IoT, the SmartHotel360 and Tailwind Traders apps highlight both our Azure cloud capabilities, IoT and DevOps offerings. Since Connect(); we've been able to use SmartHotel360 and Tailwind Traders applications source code in a myriad of ways, from showing cloud-native development to demonstrating how customers can migrate to Azure. In this session you'll learn the architecture, components and get some tips on using it for demonstrating Azure, Azure DevOps, Xamarin, and more.
+Doing demonstrations of Azure Services for developers to customers could be challenging, especially if you want to show how multiple services work together to solve a concrete business challenge. Learn how to use the same demos and resources that Microsoft uses at major events like //Build, Ignite and Connect();. We will be showcasing two end-to-end scenarios called SmartHotel360 and Tailwind Traders, to demonstrate how customers can migrate to Azure and excite audiences with unlimited cloud capabilities, from App Services, to Functions, AKS, DevOps, Xamarin and more.
 
-## Game Plan
+### Workshop Plan
 
 ![](Images/gameplan.png)
 
 -------------------------
-## Choose your adventure
+### Choose your adventure
 
 | Demo​                               | Description​                                                                           | Repository​                         |
 |------------------------------------|---------------------------------------------------------------------------------------|------------------------------------|
-| [Modernization with App Services](#modernization-with-app-services)​    | Migrating ASP.NET WebForms App to Azure App Service and modernizing with Serverless. ​ | Tailwind Traders (Rewards)​         |
+| [Modernizing .NET Apps with Azure App Services](#Modernizing-NET-apps-with-Azure-App-Services)​    | Migrating ASP.NET WebForms App to Azure App Service and modernizing with Serverless. ​ | Tailwind Traders (Rewards)​         |
 | [Managing Backend Services with AKS](#managing-backend-services-with-aks)​ | Run multi-language based microservices on Azure Kubernetes Service. ​                  | Tailwind Traders (AKS)​             |
-| [DevOps](#devops)​                             | Setup continuous automated pipelines from GitHub to Azure.​                            | Tailwind Traders (Website)​         |
-| [Cloud-Native](#cloud-native-solutions)​                       | Build a serverless intelligent app powered by Azure.​                                  | SmartHotel360 (Sentiment Analysis)​ |
-| [Internet of Things](#internet-of-things)​                 | Manage IoT devices with Azure Digital Twins.​                                          | SmartHotel360 (IoT)​                |
-
+| [Managing Windows Containers in AKS](#managing-windows-containers-in-aks)​                       | Deploy a .NET Framework Application to AKS using Windows Containers                                  | SmartHotel360 Registration​ |
+| [Azure DevOps and GitHub](#Azure-DevOps-and-GitHub])​                             | Setup continuous automated pipelines from GitHub to Azure.​                            | Tailwind Traders (Website)​         
 -------------------------
-# Modernization with App Services
+## Modernizing .NET Apps with Azure App Services
  
-Tailwind Traders has an existing ASP.NET Framework app that they need to move to the cloud. They also want to take advantage of a rewards program they built in but didn’t have time to implement. In this walkthrough, we’ll take an on-premises ASP.NET Web Form app & SQL DB and migrate it to Azure; then modernize the app to support our new rewards program.
+Tailwind Traders is expanding their business world-wide, they need to be able to support millions of users without have to worry about the infrastructure, that's why they need to migrate an ASP.NET WebForms application. In this walkthrough, we’ll take the on-premises application with the database and migrate it to Azure; then we will modernize the application with serverless to automate a process in the application without modifying the code base.
  
 **Source code:** https://github.com/Microsoft/TailwindTraders-Rewards
 
@@ -32,9 +31,9 @@ Tailwind Traders has an existing ASP.NET Framework app that they need to move to
 [Back to Top](#choose-your-adventure)
 
 -------------------------
-# Managing Backend Services with AKS
+## Managing Backend Services with AKS
 
-Tailwind Traders would like to take advantage of microservices, as containers in Kubernetes to increase latency of their application and features such as auto-patching, auto-scaling and updates support. Using AKS, they will take advantage of Dev Spaces capabilities to get a great inner loop development experience with Kubernetes on Azure, and save money using our new Virtual Node service.
+Tailwind Traders have built a set of microservices that work as backend for their applications, they have containerized and to manage those they want to use Azure Kubernetes Services to take advantage of features such as auto-patching, auto-scaling and updates support. These walkthroughts will show how to deploy the containers, use virtual nodes and Dev Spaces capabilities to get a great inner loop development experience with Kubernetes on Azure.
 
 **Source code**: [https://github.com/Microsoft/TailwindTraders-Backend](https://github.com/Microsoft/TailwindTraders-Backend)
 
@@ -45,7 +44,20 @@ Tailwind Traders would like to take advantage of microservices, as containers in
 [Back to Top](#choose-your-adventure)
 
 -------------------------
-# DevOps
+## Managing Windows Containers in AKS
+
+SmartHotel360 wants to modernize a multi-tier .NET Framework application, they would like to containerized it using Windows Containers and deploy it to Azure Kubernetes Services to take advantage of features such as auto-patching, auto-scaling and updates support. This walkthrought will show how to deploy a Windows Container in AKS.
+
+**Source code**: [https://github.com/microsoft/SmartHotel360-Registration](https://github.com/microsoft/SmartHotel360-Registration)
+
+**Demo Script**: [Managing Windows Containers in AKS](https://github.com/microsoft/SmartHotel360-Registration)
+
+![](Images/sh360registration.png)
+
+[Back to Top](#choose-your-adventure)
+
+-------------------------
+## Azure DevOps and GitHub
 
 The Tailwind Traders team uses GitHub for hosting their source code and use Azure Pipelines for continuous integration and continuous delivery to quickly deploy their changes to Azure. Their public website will be hosted in Azure, and they want to automate the entire process so that they can spin up all the infrastructure needed to deploy and host the application without any manual intervention.
 
@@ -53,36 +65,12 @@ Tailwind Traders team, like most DevOps teams practices continuous planning. The
 
 **Source code:** [https://github.com/Microsoft/TailwindTraders-Website](https://github.com/Microsoft/TailwindTraders-Website)
 
-**Demo Script:** [DevOps](https://github.com/Microsoft/TailwindTraders/tree/master/Documents/DemoScripts/Integrating%20Azure%20Pipelines%2C%20GitHub%20and%20Azure%20Boards#integrating-azure-pipelines-github-and-azure-boards)
+**Demo Script:** [Azure DevOps + GitHub](https://github.com/Microsoft/TailwindTraders/tree/master/Documents/DemoScripts/Integrating%20Azure%20Pipelines%2C%20GitHub%20and%20Azure%20Boards#integrating-azure-pipelines-github-and-azure-boards)
 
 ![](Images/GHAzureDevOps.png)
 
 [Back to Top](#choose-your-adventure)
 
--------------------------
-# Cloud Native Solutions
+# Feedback
 
-SmartHotel360 has implemented a simple Node.js website to analyze customer sentiment from Twitter by using Text Analysis Cognitive Services APIs. This website was built with Visual Studio Code and we used multiple of our newest extensions for Cosmos DB, App Service, Azure Functions, and Docker for Visual Studio Code and Azure to build this app.
-
-**Source code:** [https://github.com/Microsoft/SmartHotel360-SentimentAnalysis](https://github.com/Microsoft/SmartHotel360-SentimentAnalysis)
-
-**Demo script:** located on the same repository.
-
-![](Images/SH360SentimentWeb.png)
-
-[Back to Top](#choose-your-adventure)
-
--------------------------
-# Internet of Things
-
-SmartHotel360 has implemented a Hotel Management solution built on top of Azure Digital Twins. The goal of the solution is to generate critical insights from the hotel to optimize building and energy efficiency, improve occupant experience and productivity of hotel personnel.
-
-This solution empowers both the Occupant and the Hotel employees (from Head of Operations to Managers) to control and remotely change settings of rooms, as well as ensure the hotel is always operating to its maximum efficiency. The system is built using Microsoft Azure Digital Twins, PowerBI and utilizes Machine Learning to maximize the impact of the data collected over time.
-
-**Source code:** [https://github.com/Microsoft/SmartHotel360-IoT](https://github.com/Microsoft/SmartHotel360-IoT)
-
-**Demo script:** located on the same repository.
-
-![](Images/SH360IOT.png)
-
-[Back to Top](#choose-your-adventure)
+We would love to improve the content of this workshop for you, please let us know your valuable input [using this survey](https://forms.office.com/Pages/ResponsePage.aspx?id=v4j5cvGGr0GRqy180BHbR5QLLLTqNRJPu88tkErU0pxUMjVCMlM5QVQ4SllJT1MwN1hPMUZVVUI4Wi4u).
