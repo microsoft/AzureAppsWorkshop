@@ -16,7 +16,7 @@ Doing demonstrations of Azure Services for developers to customers could be chal
 | [Modernizing .NET Apps with Azure App Services](#Modernizing-NET-apps-with-Azure-App-Services)​    | Migrating ASP.NET WebForms App to Azure App Service and modernizing with Serverless. ​ | Tailwind Traders (Rewards)​         |
 | [Managing Backend Services with AKS](#managing-backend-services-with-aks)​ | Run multi-language based microservices on Azure Kubernetes Service. ​                  | Tailwind Traders (AKS)​             |
 | [Managing Windows Containers in AKS](#managing-windows-containers-in-aks)​                       | Deploy a .NET Framework Application to AKS using Windows Containers                                  | SmartHotel360 Registration​ |
-| [Azure DevOps and GitHub](#Azure-DevOps-and-GitHub])​                             | Setup continuous automated pipelines from GitHub to Azure.​                            | Tailwind Traders (Website)​         
+| [Azure DevOps and GitHub](#Azure-DevOps-and-GitHub)​                             | Setup continuous automated pipelines from GitHub to Azure.​                            | Tailwind Traders (Website)​         
 -------------------------
 ## Modernizing .NET Apps with Azure App Services
  
